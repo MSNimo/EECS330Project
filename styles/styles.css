@@ -13,10 +13,20 @@ body {
     text-align: center;
 }
 
+#content-buttons {
+    padding: 5%;
+    display: inline-block;
+}
+
+.btn-space {
+    margin: 5px;
+}
+
 .title {
     
     font-size: 500%;
 }
+
 #left-title {
     
     color: blue;
