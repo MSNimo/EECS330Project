@@ -1,0 +1,28 @@
+body {
+    
+    background-color: #fbfcfe; !important
+    font-family: helvetica;
+}
+
+#content {
+
+    padding-top: 5%;
+}
+
+#content, #footer {
+    text-align: center;
+}
+
+.title {
+    
+    font-size: 500%;
+}
+#left-title {
+    
+    color: blue;
+}
+
+#right-title {
+    
+    color: red;
+}
