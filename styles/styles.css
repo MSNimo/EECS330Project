@@ -1,5 +1,5 @@
 html {
-    
+
     min-width: 500px;
 }
 body {
@@ -164,6 +164,14 @@ CANDIDATE PAGES
     margin: auto;
 }
 
+.content-subcandidate {
+
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 60%;
+    margin: auto;    
+}
+
 .candidate-info {
 
     text-align:center;
@@ -196,7 +204,7 @@ CANDIDATE PAGES
 }
 @media only screen and (max-width: 795px) {
     .title {
-        
+
         padding-top: 10%;
         font-size: 250%;
     }
@@ -209,16 +217,16 @@ CANDIDATE PAGES
         margin: auto;
         padding-bottom: 2%;
     }
-    
+
     .candidate-img {
-       
+
         width: 50%;
         display: block;
         margin-left: auto;
         margin-right: auto;
         padding-bottom: 1%;
     }
-    
+
     .candidate-twitter {
 
         width: 90%;
@@ -226,12 +234,12 @@ CANDIDATE PAGES
 }
 
 @media only screen and (min-width: 1300px) {
-    
+
     .candidate-info {
 
         padding: 2%;
     }
-    
+
     .candidate-img {
 
         float: left;
@@ -255,7 +263,18 @@ CANDIDATE PAGES
 }
 
 #stance {
-    
+
     width: 60%;
     margin: auto;
+}
+
+iframe {
+    width: 100%;
+    height: 480px;
+}
+
+@media only screen and (max-width: 1000px) {
+    iframe {
+        height: 360px;
+    }
 }
