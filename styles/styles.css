@@ -1,9 +1,12 @@
 body {
-    
+
     background-color: #fbfcfe; !important
     font-family: helvetica;
 }
 
+/***************
+HOME PAGE
+***************/
 #content {
 
     padding-top: 5%;
@@ -23,16 +26,119 @@ body {
 }
 
 .title {
-    
+
     font-size: 500%;
 }
 
 #left-title {
-    
+
     color: blue;
 }
 
 #right-title {
-    
+
     color: red;
+}
+
+/**********************
+LEARN MORE PAGE
+**********************/
+
+.navbar {
+    position:fixed;
+    background-color: #fbfcfe;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+
+
+    width: 100%;
+}
+
+.navbar-brand {
+    font-size: 200%;
+}
+
+.nav-container {
+    
+    width: 95%;
+}
+
+#content-learnmore {
+
+    padding-top: 2%;
+    text-align: center;
+}
+
+.band {
+    width: 60%;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 5% 0;
+    
+    display: grid;
+    
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+}
+
+@media only screen and (min-width: 500px) {
+    .band {
+        grid-template-columns: 1fr 1fr;
+    }  
+}
+
+@media only screen and (min-width: 850px) {
+    .band {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 150%;
+    margin: 2% 0;
+}
+
+.card-subtitle {
+    color: grey;
+    font-size: 1.5em;
+}   
+
+.card-btn {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.card-icon {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+.tight-p {
+    
+    margin: 0;
+}
+
+.party-text {
+    
+    font-size: 1.25em;
+}
+.card-btn:hover, a:hover {
+    opacity: 0.7;
 }

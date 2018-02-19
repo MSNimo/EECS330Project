@@ -8,17 +8,62 @@
         <!--<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="styles/styles.css" !important>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <body>
-
-        <div id="content">
-
+        <nav class="navbar navbar-light">
+            <a class="navbar-brand" href="index.html">
+                <b><font id = "left-title">Election</font>|<font id = "right-title">Connection</font></b>
+            </a>
+        </nav>
+        <div id="content-learnmore">
+            <div class="band">
+                <div class="card">
+                    <img src="img/tammy_duckworth.png" alt="Duckworth" style="width:100%">
+                    <p class="card-title">Tammy Duckworth</p>
+                    <p class="card-subtitle">Senator (IL)</p>
+                    <p class = "party-text">Democrat</p>
+                    <a class = "card-icon" href="https://www.duckworth.senate.gov/"><i class="fa fa-desktop"></i></a>
+                    <a class = "card-icon" href="https://twitter.com/SenDuckworth"><i class="fa fa-twitter"></i></a>
+                    <a class = "card-icon" href="https://www.facebook.com/SenDuckworth/"><i class="fa fa-facebook"></i></a>
+                    <p class = "tight-p"><button class = "card-btn" onclick= "duckworth_go()">Learn More</button></p>
+                </div>
+                <div class="card">
+                    <img src="img/mark_kirk.png" alt="Kirk" style="width:100%">
+                    <p class="card-title">Mark Kirk</p>
+                    <p class="card-subtitle">Senator (IL)</p>
+                    <p class = "party-text">Republican</p>
+                    <a class = "card-icon" href="https://twitter.com/SenatorKirk"><i class="fa fa-twitter"></i></a>
+                    <a class = "card-icon" href="https://www.facebook.com/KirkForSenate/"><i class="fa fa-facebook"></i></a>
+                    <p class = "tight-p"><button class = "card-btn" onclick= "kirk_go()">Learn More</button></p>
+                </div>
+                <div class="card">
+                    <img src="img/jan_schawosky.png" alt="Schakowsky" style="width:100%">
+                    <p class="card-title">Jan Schakowsky</p>
+                    <p class="card-subtitle">Representative (IL-09)</p>
+                    <p class = "party-text">Democrat</p>
+                    <a class = "card-icon" href="https://schakowsky.house.gov/"><i class="fa fa-desktop"></i></a>
+                    <a class = "card-icon" href="https://twitter.com/janschakowsky"><i class="fa fa-twitter"></i></a>
+                    <a class = "card-icon" href="https://www.facebook.com/janschakowsky/"><i class="fa fa-facebook"></i></a>
+                    <p class = "tight-p"><button class = "card-btn" onclick= "schakowsky_go()">Learn More</button></p>
+                </div>
+                <div class="card">
+                    <img src="img/joan_mccarthy_lasonde.png" alt="Lasonde" style="width:100%">
+                    <p class="card-title">Joan McCarthy Lasonde</p>
+                    <p class="card-subtitle">Representative (IL-09)</p>
+                    <p class = "party-text">Republican</p>
+                    <a class = "card-icon" href="https://twitter.com/Save_Illinois"><i class="fa fa-twitter"></i></a>
+                    <p class = "tight-p"><button class = "card-btn" onclick= "lasonde_go()">Learn More</button></p>
+                </div>
+            </div>
+        </div>
         <div id = "footer">
             <p>Created by Michael Benimovich, Nicolas Finkelstein, Lakshman Kumar, Michael Tobia
                 <br>EECS 330 | Winter Quarter 2018</p>
-        </div>   
+        </div>  
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="func.js"></script>
     </body>
 </html>
