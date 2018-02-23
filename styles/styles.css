@@ -278,3 +278,21 @@ iframe {
         height: 360px;
     }
 }
+
+/**********************
+MATCHME
+**********************/
+
+#content-matchme {
+
+    padding-top: 5%;
+    text-align: center-left;
+    width: 60%;
+    margin: auto;
+}
+
+.question {
+
+    font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 25px;
+}
