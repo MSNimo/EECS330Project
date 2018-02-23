@@ -41,12 +41,12 @@ HOME PAGE
 
 #left-title {
 
-    color: blue;
+    color: #EF626C;
 }
 
 #right-title {
 
-    color: red;
+    color: #161925;
 }
 
 /**********************
@@ -296,3 +296,37 @@ MATCHME
     font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 25px;
 }
+
+#matchme-loader {
+    padding-top: 15%;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    top: 50%;
+    left: 50%;
+    height: 120px;
+    margin: auto;
+    align-content: center;
+
+
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+

@@ -18,10 +18,11 @@ function lasonde_go() {
     location.href = "learnmore.html";
 }
 
+//Matchme, Matchme-Loader and Match-results
 function match_me(){
 	location.href = "matchme.html";
 }
 
 function collect_match_me(){
-	location.href = "matchresults.html"
+	location.href = "matchme-loader.html"
 }
