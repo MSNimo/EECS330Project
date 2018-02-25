@@ -41,12 +41,12 @@ HOME PAGE
 
 #left-title {
 
-    color: #EF626C;
+    color: #CA5B54;
 }
 
 #right-title {
 
-    color: #161925;
+    color: #4579B2;
 }
 
 /**********************
@@ -102,6 +102,10 @@ LEARN MORE PAGE
     .band {
         grid-template-columns: 1fr 1fr;
     }
+}
+
+.navbar-brand b{
+  color: black;
 }
 
 .card {
@@ -182,6 +186,7 @@ CANDIDATE PAGES
 .candidate-img {
 
     width: 40%;
+    margin-right: 10px;
 }
 
 .candidate-img img{
@@ -192,8 +197,8 @@ CANDIDATE PAGES
 
 .candidate-twitter {
 
-    width: 50%;
-    margin-left: 5%;
+    width: 45%;
+    margin-left: 6%;
 }
 
 @media only screen and (max-width: 490px) {
@@ -251,7 +256,8 @@ CANDIDATE PAGES
 
     .candidate-twitter {
 
-        float: left;
+        float: right;
+
     }
 }
 
@@ -418,4 +424,9 @@ MATCHRESULTS
 
 .result-btn-cnt {
  display: inline-block;
+}
+
+.card .tight-p .card-btn{
+  background-color: black;
+
 }
