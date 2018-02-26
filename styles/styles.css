@@ -373,21 +373,25 @@ MATCHRESULTS
 #duckworth-result .result-percent{
   /* background-color: #4579B2; */
   color: #4579B2;
+  top: 20%;
 }
 
 #kirk-result .result-percent{
   /* background-color: #CA5B54; */
   color: #CA5B54;
+  top: 20%;
 }
 
 #schawosky-result .result-percent{
   /* background-color: #4579B2; */
   color: #4579B2;
+  top: 20%;
 }
 
 #lasonde-result .result-percent{
   /* background-color: #CA5B54; */
   color: #CA5B54;
+  top: 20%;
 }
 .result-info {
   display: inline-block;
