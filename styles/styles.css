@@ -346,8 +346,11 @@ MATCHRESULTS
 
 }
 #results-header {
-  text-align: center-left;
+  text-align: left-center;
+}
 
+.color-note {
+  text-align: left;
 }
 #results-wrapper {
   width: 60%
@@ -364,34 +367,27 @@ MATCHRESULTS
   max-width: 1100px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   position: relative;
+  z-index: -1;
 }
 
-#duckworth-result{
-  background: -webkit-linear-gradient(top, white 31%, #afb8ff);
-  background: -moz-linear-gradient(top, white 31%, #afb8ff);
-  background: -ms-linear-gradient(top, white 31%, #afb8ff);
-  background: linear-gradient(top, white 31%, #afb8ff);
+#duckworth-result .result-percent{
+  /* background-color: #4579B2; */
+  color: #4579B2;
 }
 
-#kirk-result{
-  background: -webkit-linear-gradient(top, white 58%, #ffafaf);
-  background: -moz-linear-gradient(top, white 58%, #ffafaf);
-  background: -ms-linear-gradient(top, white 58%, #ffafaf);
-  background: linear-gradient(top, white 58%, #ffafaf);
+#kirk-result .result-percent{
+  /* background-color: #CA5B54; */
+  color: #CA5B54;
 }
 
-#schawosky-result{
-  background: -webkit-linear-gradient(top, white 26%, #afb8ff);
-  background: -moz-linear-gradient(top, white 26%, #afb8ff);
-  background: -ms-linear-gradient(top, white 26%, #afb8ff);
-  background: linear-gradient(top, white 26%, #afb8ff);
+#schawosky-result .result-percent{
+  /* background-color: #4579B2; */
+  color: #4579B2;
 }
 
-#lasonde-result{
-  background: -webkit-linear-gradient(top, white 82%, #ffafaf);
-  background: -moz-linear-gradient(top, white 82%, #ffafaf);
-  background: -ms-linear-gradient(top, white 82%, #ffafaf);
-  background: linear-gradient(top, white 82%, #ffafaf);
+#lasonde-result .result-percent{
+  /* background-color: #CA5B54; */
+  color: #CA5B54;
 }
 .result-info {
   display: inline-block;
@@ -405,7 +401,7 @@ MATCHRESULTS
   color: black;
 }
 .result-sub {
-  color: grey;
+  color: black;
   font-size: 1.5em;
 }
 .result-party {
@@ -424,9 +420,4 @@ MATCHRESULTS
 
 .result-btn-cnt {
  display: inline-block;
-}
-
-.card .tight-p .card-btn{
-  background-color: black;
-
 }
