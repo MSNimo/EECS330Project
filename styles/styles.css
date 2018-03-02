@@ -109,24 +109,24 @@ LEARN MORE PAGE
   color: black;
 }
 
-.card {
+.customcard {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
     margin: auto;
     text-align: center;
 }
 
-.card-title {
+.customcard-title {
     font-size: 150%;
     margin: 2% 0;
 }
 
-.card-subtitle {
+.customcard-subtitle {
     color: grey;
     font-size: 1.5em;
 }
 
-.card-btn {
+.customcard-btn {
     border: none;
     outline: 0;
     display: inline-block;
@@ -138,7 +138,7 @@ LEARN MORE PAGE
     width: 100%;
 }
 
-.card-icon {
+.customcardicon {
     text-decoration: none;
     font-size: 22px;
     color: black;
@@ -153,7 +153,7 @@ LEARN MORE PAGE
 
     font-size: 1.25em;
 }
-.card-btn:hover, a:hover {
+.customcard-btn:hover, a:hover {
     opacity: 0.7;
 }
 
@@ -364,7 +364,7 @@ MATCHRESULTS
   grid-gap: 20px;
 }
 
-.result-card {
+.result-customcard {
   max-width: 1100px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   position: relative;
@@ -424,4 +424,17 @@ MATCHRESULTS
 
 .result-btn-cnt {
  display: inline-block;
+}
+
+
+/* Filter */
+.customcard {
+  transition: all 0.5s ease;
+}
+
+#content-learnmore select{
+  margin-top: 7.5%;
+  width: 17.5%;
+  display: inline-block;
+  height: 40px;
 }
