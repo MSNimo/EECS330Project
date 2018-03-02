@@ -27,42 +27,58 @@ function collect_match_me(){
   var matchOutput = [0,0,0,0]; // [duckworth, kirk, schawosky, lasonde]
   if(matchAnswers[0].checked){
     // Pro Choice
-    matchoutput += [20, 20, 20, 0];
+    matchoutput += [20, 20, 20, 10];
   }
   if(matchAnswers[1].checked){
     // Pro Life
-    matchOutput += [0,0,0,20];
+    matchOutput += [0, 0, 0, 10];
   }
   if(matchAnswers[2].checked){
     // N/A
+    matchOutput += [10, 10, 10, 10]
   }
   if(matchAnswers[3].checked){
     // Pro Gun Control
+    matchOutput += [20, 5, 20, 10]
   }
   if(matchAnswers[4].checked){
     // Pro Gun
+    matchOutput += [0, 5, 0, 10];
   }
   if(matchAnswers[5].checked){
     // N/A
+    matchOutput += [10, 10, 10, 10];
   }
   if(matchAnswers[6].checked){
     // Pro Environmental Regulation
+    matchOutput += [20, 15, 20, 10]
+    tammy duckworth:
+    mark kirk:
+    Jan Schawosky:
+    Joan McCarthy Lasonde:
   }
   if(matchAnswers[7].checked){
     // Anti Environmental Regulation
+    matchOutput += [0, 5, 0, 10];
   }
   if(matchAnswers[8].checked){
     // N/A
+    matchOutput += [10, 10, 10, 10];
   }
   if(matchAnswers[9].checked){
     // Pro Universal Healthcare
+    matchOutput += [15, 0, 20, 5];
   }
   if(matchAnswers[10].checked){
     // Anti Universal Health Care
+    matchOutput += [5, 20, 0, 15];
   }
   if(matchAnswers[11].checked){
+    // N/A
+    matchOutput += [10, 10, 10, 10];
 
   }
+  location.href = "matchme-loader.html";
 }
 
 
