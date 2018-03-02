@@ -1,6 +1,6 @@
 function learn_more() {
      location.href = "learnmore.html";
-} 
+}
 
 function duckworth_go() {
     location.href = "duckworth.html";
@@ -20,11 +20,49 @@ function lasonde_go() {
 
 //Matchme, Matchme-Loader and Match-results
 function match_me(){
-	location.href = "matchme.html";
 }
 
 function collect_match_me(){
-	location.href = "matchme-loader.html"
+  var matchAnswers = document.form[0];
+  var matchOutput = [0,0,0,0]; // [duckworth, kirk, schawosky, lasonde]
+  if(matchAnswers[0].checked){
+    // Pro Choice
+    matchoutput += [20, 20, 20, 0];
+  }
+  if(matchAnswers[1].checked){
+    // Pro Life
+    matchOutput += [0,0,0,20];
+  }
+  if(matchAnswers[2].checked){
+    // N/A
+  }
+  if(matchAnswers[3].checked){
+    // Pro Gun Control
+  }
+  if(matchAnswers[4].checked){
+    // Pro Gun
+  }
+  if(matchAnswers[5].checked){
+    // N/A
+  }
+  if(matchAnswers[6].checked){
+    // Pro Environmental Regulation
+  }
+  if(matchAnswers[7].checked){
+    // Anti Environmental Regulation
+  }
+  if(matchAnswers[8].checked){
+    // N/A
+  }
+  if(matchAnswers[9].checked){
+    // Pro Universal Healthcare
+  }
+  if(matchAnswers[10].checked){
+    // Anti Universal Health Care
+  }
+  if(matchAnswers[11].checked){
+
+  }
 }
 
 
