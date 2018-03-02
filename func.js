@@ -7,15 +7,15 @@ function duckworth_go() {
 }
 
 function kirk_go() {
-    location.href = "learnmore.html";
+    location.href = "kirk.html";
 }
 
 function schakowsky_go() {
-    location.href = "learnmore.html";
+    location.href = "schakowsky.html";
 }
 
 function lasonde_go() {
-    location.href = "learnmore.html";
+    location.href = "lasonde.html";
 }
 
 //Matchme, Matchme-Loader and Match-results
