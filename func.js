@@ -34,6 +34,10 @@ function crying_go(){
 	location.href = "https://en.wikipedia.org/wiki/Emoji"
 }
 
+function match_me_go(){
+  location.href = "matchme.html";
+}
+
 //Matchme, Matchme-Loader and Match-results
 function match_me(){
   var perD = localStorage.getItem("DuckPer");
@@ -204,4 +208,3 @@ $("select.filterby").change(function(){
     $("div.band").find("div").hide();
     $("div.band").find("div." + filters).show();
 });
-
