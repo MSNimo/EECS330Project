@@ -18,6 +18,22 @@ function lasonde_go() {
     location.href = "learnmore.html";
 }
 
+function shrek_go(){
+	location.href = "https://en.wikipedia.org/wiki/Shrek_(character)"
+}
+
+function kamala_go(){
+	location.href = ""
+}
+
+function loretta_go(){
+	location.href = ""
+}
+
+function crying_go(){
+	location.href = "https://en.wikipedia.org/wiki/Emoji"
+}
+
 //Matchme, Matchme-Loader and Match-results
 function match_me(){
 	location.href = "matchme.html";
