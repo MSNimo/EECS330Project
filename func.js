@@ -23,7 +23,7 @@ function shrek_go(){
 }
 
 function kamala_go(){
-	location.href = ""
+	location.href = "harris.html"
 }
 
 function loretta_go(){
