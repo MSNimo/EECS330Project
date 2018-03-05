@@ -20,6 +20,7 @@ function lasonde_go() {
 
 //Matchme, Matchme-Loader and Match-results
 function match_me(){
+	location.href = "matchme.html";
 }
 
 function collect_match_me(){
