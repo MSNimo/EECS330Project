@@ -10,7 +10,7 @@
         <link rel="stylesheet" type="text/css" href="styles/styles.css" !important>
     </head>
 
-    <body>
+    <body onload="match_me()">
         <nav class="navbar navbar-light">
             <a class="navbar-brand" href="index.html">
                 <b><font id = "left-title">Election</font>|<font id = "right-title">Connection</font></b>
@@ -39,7 +39,7 @@
                 <div class="result-sub">Senator (IL)</div>
                 <div class="result-party">Democrat</div>
               </div>
-              <span id="duckworth-percent" class="result-percent">69%</span>
+              <span id="duckworth-percent" class="result-percent"></span>
             </a>
             <div id="kirk-result" class="result-card">
               <img src="img/mark_kirk.png" alt="Kirk" style="width:30%">
@@ -48,7 +48,7 @@
                 <div class="result-sub">Senator (IL)</div>
                 <div class="result-party">Republican</div>
               </div>
-              <span id="kirk-percent" class="result-percent">42%</span>
+              <span id="kirk-percent" class="result-percent"></span>
             </div>
             <h3>Local Representative:</h3>
             <div id="schawosky-result" class="result-card">
@@ -58,7 +58,7 @@
                 <div class="result-sub">Representative (IL-09)</div>
                 <div class="result-party">Democrat</div>
               </div>
-              <span id="schawosky-percent" class="result-percent">74%</span>
+              <span id="schawosky-percent" class="result-percent"></span>
             </div>
             <div id="lasonde-result" class="result-card">
               <img src="img/joan_mccarthy_lasonde.png" alt="Lasonde" style="width:30%">
@@ -67,7 +67,10 @@
                 <div class="result-sub">Representative (IL-09)</div>
                 <div class="result-party">Republican</div>
               </div>
-              <span id="lasonde-percent" class="result-percent">18%</span>
+              <span id="lasonde-percent" class="result-percent"></span>
             </div>
           </div>
         </div>
+        <script src="func.js"></script>
+      </body>
+    </html>
