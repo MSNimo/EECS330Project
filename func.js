@@ -27,7 +27,7 @@ function kamala_go(){
 }
 
 function loretta_go(){
-	location.href = ""
+	location.href = "sanchez.html"
 }
 
 function crying_go(){
