@@ -16,8 +16,8 @@
                 <b><font id = "left-title">Election</font>|<font id = "right-title">Connection</font></b>
             </a>
         </nav>
-        
-        <div id="content-matchme">
+
+        <form id="content-matchme">
             <div id="matchme-heading">
                 <h1> Please answer the following questions to help us determine your political match: </h1>
             </div>
@@ -46,18 +46,32 @@
                 <input type="radio" name="q4" value="c" id="q4c" value="" checked><label for="q4c">&nbsp;Neutral / Isn't Important</label><br/>
             </ul>
             </br>
+            <p class="question">What is your stance on <strong></strong>?</p>
+            <ul class="answers">
+                <input type="radio" name="q5" value="a" id="q5a"><label for="q5a">&nbsp;Reduce Taxes</label><br/>
+                <input type="radio" name="q5" value="b" id="q5b"><label for="q5b">&nbsp;Increase Taxes</label><br/>
+                <input type="radio" name="q5" value="c" id="q5c" value="" checked><label for="q5c">&nbsp;Neutral / Isn't Important</label><br/>
+            </ul>
+            </br>
+            <p class="question">What is your name?</p>
+            <ul class="answers">
+                <textarea row="1"></textarea>
+            </ul>
+            <p class="question">What is your age?</p>
+            <ul class="answers">
+                <input type="number" value="18"/>
+            </ul>
             <div id = "match-submit-button">
                 <button type="button" class="btn btn-primary btn-lg btn-space" onclick="collect_match_me()"><br>Match me with a Candidate<br><br></button>
-            </div>  
-        </div>
-        </br>        
+            </div>
+        </form>
+        </br>
         <div id = "footer">
             <p>Created by Michael Benimovich, Nicolas Finkelstein, Lakshman Boddoju, Michael Tobia
                 <br>EECS 330 | Winter Quarter 2018</p>
-        </div>  
+        </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <script src="func.js"></script>
     </body>
 </html>
-            
