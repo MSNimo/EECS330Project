@@ -44,10 +44,27 @@ function match_me(){
   var perK = localStorage.getItem("KirkPer");
   var perS = localStorage.getItem("SchaPer");
   var perL = localStorage.getItem("LasoPer");
+  var perHar = localStorage.getItem("HarrisPer");
+  var perSan = localStorage.getItem("SanchezPer");
+  var perHas = localStorage.getItem("HassanPer");
+  var perCor = localStorage.getItem("CortezPer");
+  var perKen = localStorage.getItem("KennedyPer");
+  var perYug = localStorage.getItem("YugiPer");
+  var perShr = localStorage.getItem("ShrekPer");
+  var perEmo = localStorage.getItem("EmojiPer");
+
   document.getElementById("duckworth-percent").innerHTML = perD + "%";
   document.getElementById("kirk-percent").innerHTML = perK + "%";
   document.getElementById("schawosky-percent").innerHTML = perS + "%";
   document.getElementById("lasonde-percent").innerHTML = perL + "%";
+  document.getElementById("harris-percent").innerHTML = perHar + "%";
+  document.getElementById("sanchez-percent").innerHTML = perSan +"%";
+  document.getElementById("hassan-percent").innerHTML = perHas + "%";
+  document.getElementById("cortez-percent").innerHTML = perCor + "%";
+  document.getElementById("kennedy-percent").innerHTML = perKen + "%";
+  document.getElementById("yugi-percent").innerHTML = perYug + "%";
+  document.getElementById("shrek-percent").innerHTML = perShr + "%";
+  document.getElementById("emoji-percent").innerHTML = perEmo + "%";
 
 }
 
@@ -59,6 +76,7 @@ function collect_match_me(){
   var perKirk = 0;
   var perSchawosky = 0;
   var perLasonde = 0;
+  var perHarris = 0, perSanchez = 0, perHassan = 0, perCortez = 0, perKennedy = 0, perShrek = 0, perEmoji = 0, perYugi = 0;
   if(matchAnswers[0].checked){
     // Pro Choice
     // matchoutput += [20, 20, 20, 10];
@@ -168,10 +186,28 @@ function collect_match_me(){
     perSchawosky += 10;
     perLasonde += 10;
   }
+  perHarris = perSchawosky + 3;
+  perSanchez = perDuckworth + 2;
+  perHassan = perDuckworth - 3;
+  perCortez = perSchawosky -2;
+  perKennedy = perKirk +3;
+  perYugi = perDuckworth - 1;
+  perShrek = perKirk - 1;
+  perEmoji = perLasonde + 3;
+
+
   localStorage.setItem("DuckPer", perDuckworth);
   localStorage.setItem("KirkPer", perKirk);
   localStorage.setItem("SchaPer", perSchawosky);
   localStorage.setItem("LasoPer", perLasonde);
+  localStorage.setItem("HarrisPer", perHarris);
+  localStorage.setItem("SanchezPer", perSanchez);
+  localStorage.setItem("HassanPer", perHassan);
+  localStorage.setItem("CortezPer", perCortez);
+  localStorage.setItem("KennedyPer", perKennedy);
+  localStorage.setItem("YugiPer", perYugi);
+  localStorage.setItem("ShrekPer", perShrek);
+  localStorage.setItem("EmojiPer", perEmoji);
   window.location.href = "matchme-loader.html";
 
   // document.GetElementById("duckworth-percent").innerHTML = perDuckworth;
