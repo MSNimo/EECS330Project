@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!--<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">-->
         <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
         <link rel="stylesheet" type="text/css" href="styles/styles.css" !important>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -19,6 +19,15 @@
             <a class="navbar-brand" href="index.html">
                 <b><font id = "left-title">Election</font>|<font id = "right-title">Connection</font></b>
             </a>
+            <div class="nav-container">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <p class="btn-group">
+                            <a href="matchme.html" class="btn btn-primary btn-space">Match Me</a>
+                        </p>
+                    </li>
+                </ul>
+            </div>
         </nav>
         <div id="content-learnmore">
 
@@ -138,16 +147,6 @@
                     <a class = "customcardicon" href="https://twitter.com/Save_Illinois"><i class="fa fa-twitter"></i></a>
                     <p class = "tight-p"><button class = "customcard-btn" onclick= "lasonde_go()">Learn More</button></p>
                 </div>
-                <div class="customcard republican god SWAMP">
-                    <img src="img/shrek.png" alt="Shrek" style="width:100%">
-                    <p class="customcard-title">SHREK</p>
-                    <p class="customcard-subtitle">God (Swamp)</p>
-                    <p class = "party-text">Republican</p>
-                    <a class = "customcardicon" href="http://www.dreamworksanimation.com/shrek/" title="Click here to access this candidate's website!"><i class="fa fa-globe"></i></a>
-                    <a class = "customcardicon" href="https://twitter.com/itsmeshrek?lang=en"><i class="fa fa-twitter"></i></a>
-                    <a class = "customcardicon" href="https://www.facebook.com/Shrek/?ref=br_rs"><i class="fa fa-facebook"></i></a>
-                    <p class = "tight-p"><button class = "customcard-btn" onclick= "shrek_go()">Learn More</button></p>
-                </div>
                 <div class="customcard democrat senator CA">
                     <img src="img/kamala.png" alt="Kamala" style="width:100%">
                     <p class="customcard-title">Kamala Harris</p>
@@ -167,6 +166,45 @@
                     <a class = "customcardicon" href="https://twitter.com/lorettasanchez?lang=en"><i class="fa fa-twitter"></i></a>
                     <a class = "customcardicon" href="https://www.facebook.com/LorettaSanchez/"><i class="fa fa-facebook"></i></a>
                     <p class = "tight-p"><button class = "customcard-btn" onclick= "loretta_go()">Learn More</button></p>
+
+                </div>
+                <div class="customcard democrat senator NH">
+                    <img src="img/hassan.png" alt=" Maggie " style="width:100%">
+                    <p class="customcard-title">Maggie Hassan </p>
+                    <p class="customcard-subtitle">Senator (NH)</p>
+                    <p class = "party-text">Democrat</p>
+                    <a class = "customcardicon" href=" https://www.hassan.senate.gov/ " title="Click here to access this candidate's website!"><i class="fa fa-globe"></i></a>
+                    <a class = "customcardicon" href=" https://twitter.com/SenatorHassan?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa fa-twitter"></i></a>
+                    <a class = "customcardicon" href=" https://www.facebook.com/SenatorHassan/"><i class="fa fa-facebook"></i></a>
+                    <p class = "tight-p"><button class = "customcard-btn" onclick= " maggie_go() ">Learn More</button></p>
+                </div>
+                <div class="customcard democrat senator NV">
+                    <img src="img/cortez.png" alt=" Catherine " style="width:100%">
+                    <p class="customcard-title">Catherine Cortez </p>
+                    <p class="customcard-subtitle">Senator (NV)</p>
+                    <p class = "party-text">Democrat</p>
+                    <a class = "customcardicon" href=" https://www.cortezmasto.senate.gov/ " title="Click here to access this candidate's website!"><i class="fa fa-globe"></i></a>
+                    <a class = "customcardicon" href="https://twitter.com/sencortezmasto?lang=en"><i class="fa fa-twitter"></i></a>
+                    <a class = "customcardicon" href="https://www.facebook.com/SenatorCortezMasto/"><i class="fa fa-facebook"></i></a>
+                    <p class = "tight-p"><button class = "customcard-btn" onclick= " catherine_go() ">Learn More</button></p>
+                </div>
+                <div class="customcard republican senator LA">
+                    <img src="img/kennedy.png" alt="John" style="width:100%">
+                    <p class="customcard-title">John Kennedy</p>
+                    <p class="customcard-subtitle">Senator (LA)</p>
+                    <p class = "party-text">Republican</p>
+                    <a class = "customcardicon" href="https://www.kennedy.senate.gov/" title="Click here to access this candidate's website!"><i class="fa fa-globe"></i></a>
+                    <a class = "customcardicon" href="https://twitter.com/senjohnkennedy?lang=en"><i class="fa fa-twitter"></i></a>
+                    <a class = "customcardicon" href="https://www.facebook.com/JohnKennedyLouisiana/"><i class="fa fa-facebook"></i></a>
+                    <p class = "tight-p"><button class = "customcard-btn" onclick= "john_go() ">Learn More</button></p>
+                </div>
+                <div class="customcard democrat god IN">
+                    <img src="img/muto.png" alt="Yugi" style="width:100%">
+                    <p class="customcard-title">Yugi Muto</p>
+                    <p class="customcard-subtitle">Duelmaster (IN)</p>
+                    <p class = "party-text">Democrat</p>
+                    <a class = "customcardicon" href="http://www.yugioh-card.com/en/" title="Click here to access this candidate's website!"><i class="fa fa-globe"></i></a>
+                    <p class = "tight-p"><button class = "customcard-btn" onclick= "yugi_go() ">Learn More</button></p>
                 </div>
                 <div class="customcard republican god internet">
                     <img src="img/crying.png" alt="Crying" style="width:100%">
@@ -176,6 +214,17 @@
                     <a class = "customcardicon" href="http://www.theemoji-movie.com/discanddigital/" title="Click here to access this candidate's website!"><i class="fa fa-globe"></i></a>
                     <p class = "tight-p"><button class = "customcard-btn" onclick= "crying_go()">Learn More</button></p>
                 </div>
+                <div class="customcard republican god SWAMP">
+                    <img src="img/shrek.png" alt="Shrek" style="width:100%">
+                    <p class="customcard-title">SHREK</p>
+                    <p class="customcard-subtitle">God (Swamp)</p>
+                    <p class = "party-text">Republican</p>
+                    <a class = "customcardicon" href="http://www.dreamworksanimation.com/shrek/" title="Click here to access this candidate's website!"><i class="fa fa-globe"></i></a>
+                    <a class = "customcardicon" href="https://twitter.com/itsmeshrek?lang=en"><i class="fa fa-twitter"></i></a>
+                    <a class = "customcardicon" href="https://www.facebook.com/Shrek/?ref=br_rs"><i class="fa fa-facebook"></i></a>
+                    <p class = "tight-p"><button class = "customcard-btn" onclick= "shrek_go()">Learn More</button></p>
+                </div>
+
             </div>
         </div>
         <div id = "footer">
