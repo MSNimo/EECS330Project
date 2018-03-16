@@ -68,6 +68,10 @@ function match_me(){
   var perYug = localStorage.getItem("YugiPer");
   var perShr = localStorage.getItem("ShrekPer");
   var perEmo = localStorage.getItem("EmojiPer");
+  var stateFilter = localStorage.getItem("LocMatch");
+
+  // State Filter Debug
+  // document.getElementById("duckworth-percent").innerHTML = stateFilter;
 
   document.getElementById("duckworth-percent").innerHTML = perD + "%";
   document.getElementById("kirk-percent").innerHTML = perK + "%";
@@ -81,6 +85,163 @@ function match_me(){
   document.getElementById("yugi-percent").innerHTML = perYug + "%";
   document.getElementById("shrek-percent").innerHTML = perShr + "%";
   document.getElementById("emoji-percent").innerHTML = perEmo + "%";
+
+  if(stateFilter == "customcard") {; // Do nothing if no state is selected
+  }else if(stateFilter == "IL"){
+    // document.getElementById("senator_head").style.display = "none"; // Senator
+    // document.getElementById("duckworth-result").style.display = "none"; // IL
+    document.getElementById("harris-result").style.display = "none"; // CA
+    document.getElementById("sanchez-result").style.display = "none"; // CA
+    // document.getElementById("kirk-result").style.display = "none"; // IL
+    document.getElementById("hassan-result").style.display = "none"; // NH
+    document.getElementById("cortez-result").style.display = "none"; // NV
+    document.getElementById("kennedy-result").style.display = "none"; // LA
+    // document.getElementById("rep_head").style.display = "none"; // Representative
+    // document.getElementById("schawosky-result").style.display = "none"; // IL
+    // document.getElementById("lasonde-result").style.display = "none"; // IL
+    document.getElementById("god_head").style.display = "none"; // God
+    document.getElementById("shrek-result").style.display = "none"; // SWAMP
+    document.getElementById("emoji-result").style.display = "none"; // internet
+    document.getElementById("duel_head").style.display = "none"; // Duelmaster
+    document.getElementById("yugi-result").style.display = "none"; // IN
+  }else if(stateFilter == "CA"){
+    // document.getElementById("senator_head").style.display = "none"; // Senator
+    document.getElementById("duckworth-result").style.display = "none"; // IL
+    // document.getElementById("harris-result").style.display = "none"; // CA
+    // document.getElementById("sanchez-result").style.display = "none"; // CA
+    document.getElementById("kirk-result").style.display = "none"; // IL
+    document.getElementById("hassan-result").style.display = "none"; // NH
+    document.getElementById("cortez-result").style.display = "none"; // NV
+    document.getElementById("kennedy-result").style.display = "none"; // LA
+    document.getElementById("rep_head").style.display = "none"; // Representative
+    document.getElementById("schawosky-result").style.display = "none"; // IL
+    document.getElementById("lasonde-result").style.display = "none"; // IL
+    document.getElementById("god_head").style.display = "none"; // God
+    document.getElementById("shrek-result").style.display = "none"; // SWAMP
+    document.getElementById("emoji-result").style.display = "none"; // internet
+    document.getElementById("duel_head").style.display = "none"; // Duelmaster
+    document.getElementById("yugi-result").style.display = "none"; // IN
+  }else if(stateFilter == "NH"){
+    // document.getElementById("senator_head").style.display = "none"; // Senator
+    document.getElementById("duckworth-result").style.display = "none"; // IL
+    document.getElementById("harris-result").style.display = "none"; // CA
+    document.getElementById("sanchez-result").style.display = "none"; // CA
+    document.getElementById("kirk-result").style.display = "none"; // IL
+    // document.getElementById("hassan-result").style.display = "none"; // NH
+    document.getElementById("cortez-result").style.display = "none"; // NV
+    document.getElementById("kennedy-result").style.display = "none"; // LA
+    document.getElementById("rep_head").style.display = "none"; // Representative
+    document.getElementById("schawosky-result").style.display = "none"; // IL
+    document.getElementById("lasonde-result").style.display = "none"; // IL
+    document.getElementById("god_head").style.display = "none"; // God
+    document.getElementById("shrek-result").style.display = "none"; // SWAMP
+    document.getElementById("emoji-result").style.display = "none"; // internet
+    document.getElementById("duel_head").style.display = "none"; // Duelmaster
+    document.getElementById("yugi-result").style.display = "none"; // IN
+  }else if(stateFilter == "NV"){
+    // document.getElementById("senator_head").style.display = "none"; // Senator
+    document.getElementById("duckworth-result").style.display = "none"; // IL
+    document.getElementById("harris-result").style.display = "none"; // CA
+    document.getElementById("sanchez-result").style.display = "none"; // CA
+    document.getElementById("kirk-result").style.display = "none"; // IL
+    document.getElementById("hassan-result").style.display = "none"; // NH
+    // document.getElementById("cortez-result").style.display = "none"; // NV
+    document.getElementById("kennedy-result").style.display = "none"; // LA
+    document.getElementById("rep_head").style.display = "none"; // Representative
+    document.getElementById("schawosky-result").style.display = "none"; // IL
+    document.getElementById("lasonde-result").style.display = "none"; // IL
+    document.getElementById("god_head").style.display = "none"; // God
+    document.getElementById("shrek-result").style.display = "none"; // SWAMP
+    document.getElementById("emoji-result").style.display = "none"; // internet
+    document.getElementById("duel_head").style.display = "none"; // Duelmaster
+    document.getElementById("yugi-result").style.display = "none"; // IN
+  }else if(stateFilter == "LA"){
+    // document.getElementById("senator_head").style.display = "none"; // Senator
+    document.getElementById("duckworth-result").style.display = "none"; // IL
+    document.getElementById("harris-result").style.display = "none"; // CA
+    document.getElementById("sanchez-result").style.display = "none"; // CA
+    document.getElementById("kirk-result").style.display = "none"; // IL
+    document.getElementById("hassan-result").style.display = "none"; // NH
+    document.getElementById("cortez-result").style.display = "none"; // NV
+    // document.getElementById("kennedy-result").style.display = "none"; // LA
+    document.getElementById("rep_head").style.display = "none"; // Representative
+    document.getElementById("schawosky-result").style.display = "none"; // IL
+    document.getElementById("lasonde-result").style.display = "none"; // IL
+    document.getElementById("god_head").style.display = "none"; // God
+    document.getElementById("shrek-result").style.display = "none"; // SWAMP
+    document.getElementById("emoji-result").style.display = "none"; // internet
+    document.getElementById("duel_head").style.display = "none"; // Duelmaster
+    document.getElementById("yugi-result").style.display = "none"; // IN
+  }else if(stateFilter == "IN"){
+    document.getElementById("senator_head").style.display = "none"; // Senator
+    document.getElementById("duckworth-result").style.display = "none"; // IL
+    document.getElementById("harris-result").style.display = "none"; // CA
+    document.getElementById("sanchez-result").style.display = "none"; // CA
+    document.getElementById("kirk-result").style.display = "none"; // IL
+    document.getElementById("hassan-result").style.display = "none"; // NH
+    document.getElementById("cortez-result").style.display = "none"; // NV
+    document.getElementById("kennedy-result").style.display = "none"; // LA
+    document.getElementById("rep_head").style.display = "none"; // Representative
+    document.getElementById("schawosky-result").style.display = "none"; // IL
+    document.getElementById("lasonde-result").style.display = "none"; // IL
+    document.getElementById("god_head").style.display = "none"; // God
+    document.getElementById("shrek-result").style.display = "none"; // SWAMP
+    document.getElementById("emoji-result").style.display = "none"; // internet
+    // document.getElementById("duel_head").style.display = "none"; // Duelmaster
+    // document.getElementById("yugi-result").style.display = "none"; // IN
+  }else if(stateFilter == "SWAMP"){
+    document.getElementById("senator_head").style.display = "none"; // Senator
+    document.getElementById("duckworth-result").style.display = "none"; // IL
+    document.getElementById("harris-result").style.display = "none"; // CA
+    document.getElementById("sanchez-result").style.display = "none"; // CA
+    document.getElementById("kirk-result").style.display = "none"; // IL
+    document.getElementById("hassan-result").style.display = "none"; // NH
+    document.getElementById("cortez-result").style.display = "none"; // NV
+    document.getElementById("kennedy-result").style.display = "none"; // LA
+    document.getElementById("rep_head").style.display = "none"; // Representative
+    document.getElementById("schawosky-result").style.display = "none"; // IL
+    document.getElementById("lasonde-result").style.display = "none"; // IL
+    // document.getElementById("god_head").style.display = "none"; // God
+    // document.getElementById("shrek-result").style.display = "none"; // SWAMP
+    document.getElementById("emoji-result").style.display = "none"; // internet
+    document.getElementById("duel_head").style.display = "none"; // Duelmaster
+    document.getElementById("yugi-result").style.display = "none"; // IN
+  }else if(stateFilter == "internet"){
+    document.getElementById("senator_head").style.display = "none"; // Senator
+    document.getElementById("duckworth-result").style.display = "none"; // IL
+    document.getElementById("harris-result").style.display = "none"; // CA
+    document.getElementById("sanchez-result").style.display = "none"; // CA
+    document.getElementById("kirk-result").style.display = "none"; // IL
+    document.getElementById("hassan-result").style.display = "none"; // NH
+    document.getElementById("cortez-result").style.display = "none"; // NV
+    document.getElementById("kennedy-result").style.display = "none"; // LA
+    document.getElementById("rep_head").style.display = "none"; // Representative
+    document.getElementById("schawosky-result").style.display = "none"; // IL
+    document.getElementById("lasonde-result").style.display = "none"; // IL
+    // document.getElementById("god_head").style.display = "none"; // God
+    document.getElementById("shrek-result").style.display = "none"; // SWAMP
+    // document.getElementById("emoji-result").style.display = "none"; // internet
+    document.getElementById("duel_head").style.display = "none"; // Duelmaster
+    document.getElementById("yugi-result").style.display = "none"; // IN
+  }else{
+    document.getElementById("senator_head").style.display = "none"; // Senator
+    document.getElementById("duckworth-result").style.display = "none"; // IL
+    document.getElementById("harris-result").style.display = "none"; // CA
+    document.getElementById("sanchez-result").style.display = "none"; // CA
+    document.getElementById("kirk-result").style.display = "none"; // IL
+    document.getElementById("hassan-result").style.display = "none"; // NH
+    document.getElementById("cortez-result").style.display = "none"; // NV
+    document.getElementById("kennedy-result").style.display = "none"; // LA
+    document.getElementById("rep_head").style.display = "none"; // Representative
+    document.getElementById("schawosky-result").style.display = "none"; // IL
+    document.getElementById("lasonde-result").style.display = "none"; // IL
+    document.getElementById("god_head").style.display = "none"; // God
+    document.getElementById("shrek-result").style.display = "none"; // SWAMP
+    document.getElementById("emoji-result").style.display = "none"; // internet
+    document.getElementById("duel_head").style.display = "none"; // Duelmaster
+    document.getElementById("yugi-result").style.display = "none"; // IN
+    document.getElementById("noResults").innerHTML = "Sorry, no results found in " + stateFilter;
+  }
 
 }
 
@@ -223,6 +384,8 @@ function collect_match_me(){
   perShrek = perKennedy + 10;
   perEmoji = perLasonde + 3;
 
+  var matchLocation = document.getElementById("matchstatepicker").value;
+
 
   localStorage.setItem("DuckPer", perDuckworth);
   localStorage.setItem("KirkPer", perKirk);
@@ -236,6 +399,7 @@ function collect_match_me(){
   localStorage.setItem("YugiPer", perYugi);
   localStorage.setItem("ShrekPer", perShrek);
   localStorage.setItem("EmojiPer", perEmoji);
+  localStorage.setItem("LocMatch", matchLocation);
   window.location.href = "matchme-loader.html";
 
   // document.GetElementById("duckworth-percent").innerHTML = perDuckworth;
