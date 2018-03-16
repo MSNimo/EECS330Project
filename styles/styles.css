@@ -18,6 +18,7 @@ HOME PAGE
 
 #content, #footer {
     text-align: center;
+    margin-top: 2.5%;
 }
 
 #content-buttons {
@@ -438,3 +439,16 @@ MATCHRESULTS
   display: inline-block;
   height: 40px;
 }
+
+
+#fb-sharing{
+  display: flex;
+  justify-content: center;
+}
+
+.butt {
+  font-weight: bold;
+  height: 150%;
+  font-size: 18px;
+}
+
