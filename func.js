@@ -30,8 +30,24 @@ function loretta_go(){
 	location.href = "sanchez.html"
 }
 
+function maggie_go(){
+	location.href = "hassan.html"
+}
+
+function catherine_go(){
+	location.href = "cortez.html"
+}
+
+function john_go(){
+	location.href = "kennedy.html"
+}
+
 function crying_go(){
 	location.href = "https://en.wikipedia.org/wiki/Emoji"
+}
+
+function yugi_go(){
+    location.href = "https://en.wikipedia.org/wiki/List_of_Yu-Gi-Oh!_characters#Main_characters"
 }
 
 function match_me_go(){

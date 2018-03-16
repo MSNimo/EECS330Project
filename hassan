@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Election Connection</title>
+        <!--<link rel="icon" href="http://example.com/favicon.png">-->
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="styles/styles.css" !important>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-light">
+            <a class="navbar-brand" href="index.html">
+                <b><font id = "left-title">Election</font>|<font id = "right-title">Connection</font></b>
+            </a>
+            <div class="nav-container">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <p class="btn-group">
+                            <a href="matchme.html" class="btn btn-primary btn-space">Match Me</a>
+                            <a href="learnmore.html" class="btn btn-primary btn-space">Return to Candidates</a>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="content-candidate">
+            <h1 class = "title">Tammy Duckworth</h1>
+
+            <div class = candidate-info>
+                <div class = "candidate-img"><img src = "img/tammy_duckworth.png"></div>
+                <div class="candidate-twitter">
+                    <a class="twitter-timeline" data-height="380" href="https://twitter.com/SenDuckworth?ref_src=twsrc%5Etfw">Tweets by SenDuckworth</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+            </div>
+            <br>
+        </div>
+        <div id = "stance">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th  scope="col">Issue</th>
+                        <th  scope="col">Stance</th>
+                        <th  scope="col">Link</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Gun Control</td>
+                        <td>Pro Gun Control</td>
+                        <td><a class = "card-icon" href="/duckworth-video.html#tammy-gun-control"><i class="fa fa-external-link"></i></a></td>
+                    </tr>
+                    <tr>
+                        <td>Immigration</td>
+                        <td>Supports DREAM Act</td>
+                        <td><a class = "card-icon" href="/duckworth-video.html#tammy-immigration"><i class="fa fa-external-link"></i></a></td>
+                    </tr>
+                    <tr>
+                        <td>Abortion</td>
+                        <td>Pro-Choice</td>
+                        <td><a class = "card-icon" href="/duckworth-video.html#tammy-abortion"><i class="fa fa-external-link"></i></a></td>
+                    </tr>
+                    <tr>
+                        <td>Environment</td>
+                        <td>Pro-Environment</td>
+                        <td><a class = "card-icon" href="/duckworth-video.html#tammy-environment"><i class="fa fa-external-link"></i></a></td>
+                    </tr>
+                    <tr>
+                        <td>Medicare</td>
+                        <td>Supports ObamaCare</td>
+                        <td><a class = "card-icon" href="/duckworth-video.html#tammy-medicare"><i class="fa fa-external-link"></i></a></td>
+                    </tr>
+                    <tr>
+                        <td>Taxes</td>
+                        <td>Increase Taxes</td>
+                        <td><a class = "card-icon" href="/duckworth-video.html#tammy-taxes"><i class="fa fa-external-link"></i></a></td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+        <div id = "footer">
+            <p>Created by Michael Benimovich, Nicolas Finkelstein, Lakshman Boddoju, Michael Tobia
+                <br>EECS 330 | Winter Quarter 2018</p>
+        </div>  
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="func.js"></script>
+    </body>
+</html>
+
