@@ -305,6 +305,10 @@ MATCHME
     font-size: 25px;
 }
 
+#age_input {
+    padding-right: 8px;
+}
+
 #matchme-loader {
     padding-top: 15%;
     text-align: center;
