@@ -394,6 +394,53 @@ MATCHRESULTS
   color: #CA5B54;
   top: 20%;
 }
+
+#harris-result .result-percent{
+  /* background-color: #CA5B54; */
+  color: #4579B2;
+  top: 20%;
+}
+
+#sanchez-result .result-percent{
+  /* background-color: #CA5B54; */
+  color: #4579B2;
+  top: 20%;
+}
+
+#hassan-result .result-percent{
+  /* background-color: #CA5B54; */
+  color: #4579B2;
+  top: 20%;
+}
+
+#cortez-result .result-percent{
+  /* background-color: #CA5B54; */
+  color: #4579B2;
+  top: 20%;
+}
+
+#kennedy-result .result-percent{
+  /* background-color: #CA5B54; */
+  color: #CA5B54;
+  top: 20%;
+}
+
+#yugi-result .result-percent{
+  /* background-color: #CA5B54; */
+  color: #4579B2;
+  top: 20%;
+}
+
+#shrek-result .result-percent {
+  color: #CA5B54;
+  top: 20%;
+}
+
+#emoji-result .result-percent {
+  color: #CA5B54;
+  top: 20%;
+}
+
 .result-info {
   display: inline-block;
   position: relative;
@@ -440,7 +487,6 @@ MATCHRESULTS
   height: 40px;
 }
 
-
 #fb-sharing{
   display: flex;
   justify-content: center;
@@ -451,4 +497,3 @@ MATCHRESULTS
   height: 150%;
   font-size: 18px;
 }
-
