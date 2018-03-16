@@ -105,6 +105,7 @@ function collect_match_me(){
     // Pro Life
     // matchOutput += [0, 0, 0, 10];
     perLasonde += 10;
+    perKennedy += 20;
   }
   if(matchAnswers[2].checked){
     // N/A
@@ -113,6 +114,7 @@ function collect_match_me(){
     perKirk += 10;
     perSchawosky += 10;
     perLasonde += 10;
+    perKennedy += 10;
   }
   if(matchAnswers[3].checked){
     // Pro Gun Control
@@ -121,12 +123,14 @@ function collect_match_me(){
     perKirk += 5;
     perSchawosky += 20;
     perLasonde += 10;
+    perKennedy -= 10;
   }
   if(matchAnswers[4].checked){
     // Pro Gun
     // matchOutput += [0, 5, 0, 10];
     perKirk += 5;
     perLasonde += 10;
+    perKennedy += 20;
   }
   if(matchAnswers[5].checked){
     // N/A
@@ -135,6 +139,7 @@ function collect_match_me(){
     perKirk += 10;
     perSchawosky += 10;
     perLasonde += 10;
+    perKennedy += 10;
   }
   if(matchAnswers[6].checked){
     // Pro Environmental Regulation
@@ -143,12 +148,14 @@ function collect_match_me(){
     perKirk += 15;
     perSchawosky += 20;
     perLasonde += 10;
+    perKennedy += 15;
   }
   if(matchAnswers[7].checked){
     // Anti Environmental Regulation
     // matchOutput += [0, 5, 0, 10];
     perKirk += 5;
     perLasonde += 10;
+    perKennedy += 5;
   }
   if(matchAnswers[8].checked){
     // N/A
@@ -157,6 +164,7 @@ function collect_match_me(){
     perKirk += 10;
     perSchawosky += 10;
     perLasonde += 10;
+    perKennedy += 10;
   }
   if(matchAnswers[9].checked){
     // Pro Universal Healthcare
@@ -172,6 +180,7 @@ function collect_match_me(){
     perDuckworth += 5;
     perKirk += 20;
     perLasonde += 15;
+    perKennedy += 20;
   }
   if(matchAnswers[11].checked){
     // N/A
@@ -180,6 +189,7 @@ function collect_match_me(){
     perKirk += 10;
     perSchawosky += 10;
     perLasonde += 10;
+    perKennedy += 10;
   }
   if(matchAnswers[12].checked){
     // Reduce Taxes
@@ -193,6 +203,7 @@ function collect_match_me(){
     perKirk += 20;
     perSchawosky += 5;
     perLasonde += 20;
+    perKennedy += 20;
   }
   if(matchAnswers[14].checked){
     // N/A
@@ -201,14 +212,15 @@ function collect_match_me(){
     perKirk += 10;
     perSchawosky += 10;
     perLasonde += 10;
+    perKennedy += 10;
   }
   perHarris = perSchawosky + 3;
   perSanchez = perDuckworth + 2;
   perHassan = perDuckworth - 3;
   perCortez = perSchawosky -2;
-  perKennedy = perKirk +3;
+  // perKennedy = perKirk +3;
   perYugi = perDuckworth - 1;
-  perShrek = perKirk - 1;
+  perShrek = perKennedy + 10;
   perEmoji = perLasonde + 3;
 
 
